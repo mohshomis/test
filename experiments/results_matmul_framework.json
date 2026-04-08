@@ -1,0 +1,15 @@
+{
+  "n=2": {
+    "naive_rank": 8,
+    "strassen_rank": 7,
+    "naive_verified": true,
+    "strassen_verified": true
+  },
+  "n=3": {
+    "naive_rank": 27,
+    "naive_verified": true,
+    "best_known_rank": 23,
+    "best_known_rank_note": "Laderman 1976, not implemented here",
+    "open_question": "Is rank(T_{3,3,3}) < 23? Unknown as of 2024."
+  }
+}
