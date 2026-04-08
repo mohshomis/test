@@ -24,6 +24,7 @@ Each finding has its own markdown file with:
 | # | Title | Status |
 |---|---|---|
 | 1 | [Concept multiplicity invariance](./01_concept_multiplicity_invariance.md) | confirmed |
+| 2 | [Dream attractors converge across networks](./02_dream_attractors_converge_across_networks.md) | confirmed |
 
 ## Things that did NOT make it into findings
 
