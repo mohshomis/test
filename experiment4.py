@@ -59,7 +59,8 @@ def softmax(z):
 
 def train_classifier(X, y, hidden, epochs=3000, lr=0.05, seed=0):
     rng = np.random.default_rng(seed)
-    net = init_mlp(2, hidden, 3, rng)
+    n_classes = int(y.max()) + 1
+    net = init_mlp(2, hidden, n_classes, rng)
     opt = Adam(net, lr=lr)
     n = X.shape[0]
     for _ in range(epochs):
